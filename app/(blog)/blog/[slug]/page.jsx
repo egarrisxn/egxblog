@@ -32,7 +32,7 @@ export default async function BlogPost({params}) {
       <article>
         <header>
           <h2 className='block text-center text-xs font-semibold uppercase tracking-wide text-primary sm:text-base 2xl:text-lg'>
-            "Spend a little time inside my head."
+            Spend a little time inside my head.
           </h2>
           <h3 className='mb-1 mt-3 block text-center text-2xl font-bold leading-8 tracking-tight sm:text-3xl lg:text-4xl 2xl:text-5xl'>
             {data.title}
@@ -61,7 +61,7 @@ export default async function BlogPost({params}) {
           <Link href='/'>Return</Link>
         </Button>
         <div className='prose prose-sm mx-auto my-12 w-fit rounded-lg border p-8 text-center text-foreground shadow lg:prose-lg xl:prose-xl 2xl:prose-2xl lg:p-6 2xl:p-8'>
-          If you'd like to support my work,
+          If you would like to support my work,
           <br />
           <a
             href='https://www.buymeacoffee.com/egarrisxn'
