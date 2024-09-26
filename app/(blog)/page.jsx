@@ -4,7 +4,7 @@ import {client, urlFor} from '../../lib/sanityClient'
 import {Card, CardContent} from '../../components/ui/card'
 import {Button} from '../../components/ui/button'
 
-// export const revalidate = 600
+export const revalidate = 600
 
 async function getData() {
   const query = `
@@ -35,10 +35,10 @@ export default async function Home() {
             className='mx-auto rounded-t-lg border object-cover md:h-[340px] lg:h-[460px] xl:h-[520px]'
           />
           <CardContent className='mt-4'>
-            <h2 className='line-clamp-2 text-xl font-bold xl:text-2xl 2xl:text-3xl'>
+            <h2 className='line-clamp-1 text-xl font-bold xl:text-2xl 2xl:text-3xl'>
               {firstBlog.title}
             </h2>
-            <p className='mt-2 line-clamp-3 text-gray-700 xl:text-xl 2xl:text-2xl dark:text-gray-400'>
+            <p className='mt-2 line-clamp-1 text-gray-700 xl:text-xl 2xl:text-2xl dark:text-gray-400'>
               {firstBlog.smallDescription}
             </p>
             <Button asChild className='mt-4 w-full'>
@@ -62,8 +62,8 @@ export default async function Home() {
               className='mx-auto rounded-t-lg border object-cover md:h-[180px] lg:h-[215px]'
             />
             <CardContent className='mt-4'>
-              <h2 className='line-clamp-2 text-xl font-bold 2xl:text-2xl'>{blog.title}</h2>
-              <p className='mt-2 line-clamp-2 text-gray-700 2xl:text-xl dark:text-gray-400'>
+              <h2 className='line-clamp-1 text-xl font-bold 2xl:text-2xl'>{blog.title}</h2>
+              <p className='mt-2 line-clamp-1 text-gray-700 2xl:text-xl dark:text-gray-400'>
                 {blog.smallDescription}
               </p>
               <Button asChild className='mt-4 w-full'>
