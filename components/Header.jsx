@@ -17,20 +17,15 @@ export default function Header() {
   return (
     <header className='mx-auto flex w-full max-w-7xl justify-between border-b-2 py-4'>
       <section className='flex'>
-        <Link href='/'>
-          <Button
-            variant='link'
-            className='text-2xl font-bold text-foreground no-underline hover:no-underline 2xl:text-4xl'
-          >
+        <Button asChild variant='none' size='xxl'>
+          <Link href='/'>
             eg<span className='text-primary'>xblog</span>
-          </Button>
-        </Link>
+          </Link>
+        </Button>
       </section>
       <section className='flex gap-2 px-4'>
-        <Button variant='outline' className='text-foreground'>
-          <Link href='https://egxworld.net/' className='2xl:text-lg'>
-            egxworld
-          </Link>
+        <Button asChild variant='outline' size='xxl' className='text-foreground'>
+          <Link href='https://egxworld.net/'>egxworld</Link>
         </Button>
 
         <DropdownMenu>

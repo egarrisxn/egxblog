@@ -55,12 +55,12 @@ export default async function BlogPost({params}) {
         </div>
         <Button
           asChild
-          variant='destructive'
-          className='mx-auto my-12 flex w-72 lg:w-80 xl:w-96 2xl:w-[32rem]'
+          variant='secondary'
+          className='mx-auto my-12 flex w-80 lg:w-80 xl:w-96 2xl:w-[32rem]'
         >
           <Link href='/'>Return</Link>
         </Button>
-        <div className='prose prose-sm mx-auto my-12 w-fit rounded-lg border p-8 text-center text-foreground shadow lg:prose-lg xl:prose-xl 2xl:prose-2xl lg:p-6 2xl:p-8'>
+        <div className='mx-auto my-12 w-fit rounded-lg border p-6 text-center text-foreground shadow xl:p-12 2xl:p-16 2xl:text-xl'>
           If you would like to support my work,
           <br />
           <a

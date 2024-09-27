@@ -35,10 +35,10 @@ export default async function Home() {
             className='mx-auto rounded-t-lg border object-cover md:h-[340px] lg:h-[460px] xl:h-[520px]'
           />
           <CardContent className='mt-4'>
-            <h2 className='line-clamp-1 text-xl font-bold md:text-4xl lg:text-5xl xl:text-6xl'>
+            <h2 className='line-clamp-1 text-xl font-bold md:text-4xl lg:text-5xl'>
               {firstBlog.title}
             </h2>
-            <p className='mt-2 line-clamp-1 text-gray-700 md:text-2xl lg:mt-3 lg:text-3xl xl:text-4xl dark:text-gray-400'>
+            <p className='mt-2 line-clamp-1 text-gray-700 md:text-2xl lg:mt-3 lg:text-3xl dark:text-gray-400'>
               {firstBlog.smallDescription}
             </p>
             <Button asChild size='xl' className='mt-4 w-full lg:mt-6'>
