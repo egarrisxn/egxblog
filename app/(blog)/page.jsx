@@ -35,13 +35,13 @@ export default async function Home() {
             className='mx-auto rounded-t-lg border object-cover md:h-[340px] lg:h-[460px] xl:h-[520px]'
           />
           <CardContent className='mt-4'>
-            <h2 className='line-clamp-1 text-xl font-bold xl:text-2xl 2xl:text-3xl'>
+            <h2 className='line-clamp-1 text-xl font-bold md:text-4xl lg:text-5xl xl:text-6xl'>
               {firstBlog.title}
             </h2>
-            <p className='mt-2 line-clamp-1 text-gray-700 xl:text-xl 2xl:text-2xl dark:text-gray-400'>
+            <p className='mt-2 line-clamp-1 text-gray-700 md:text-2xl lg:mt-3 lg:text-3xl xl:text-4xl dark:text-gray-400'>
               {firstBlog.smallDescription}
             </p>
-            <Button asChild className='mt-4 w-full'>
+            <Button asChild size='xl' className='mt-4 w-full lg:mt-6'>
               <Link href={`/blog/${firstBlog.currentSlug}`}>Read More</Link>
             </Button>
           </CardContent>
@@ -57,9 +57,9 @@ export default async function Home() {
             <Image
               src={urlFor(blog.coverImage).url()}
               alt='image'
-              width={750}
-              height={215}
-              className='mx-auto rounded-t-lg border object-cover md:h-[180px] lg:h-[215px]'
+              width={800}
+              height={400}
+              className='mx-auto max-h-fit rounded-t-lg border object-cover md:h-[180px] lg:h-[215px]'
             />
             <CardContent className='mt-4'>
               <h2 className='line-clamp-1 text-xl font-bold 2xl:text-2xl'>{blog.title}</h2>
