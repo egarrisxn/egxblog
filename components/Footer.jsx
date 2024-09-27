@@ -21,11 +21,7 @@ export default function Footer() {
             ></path>
           </svg>
         </a>
-        <a
-          href='https://www.linkedin.com/in/ethan-garrison'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a href='https://linkedin.com/in/ethan-gx' target='_blank' rel='noopener noreferrer'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1.2em'
@@ -45,7 +41,7 @@ export default function Footer() {
             </g>
           </svg>
         </a>
-        <a href='https://twitter.com/eg_xo_' target='_blank' rel='noopener noreferrer'>
+        <a href='https://x.com/eg__xo' target='_blank' rel='noopener noreferrer'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1.2em'
@@ -63,7 +59,7 @@ export default function Footer() {
             ></path>
           </svg>
         </a>
-        <a href='https://www.instagram.com/eg___xo' target='_blank' rel='noopener noreferrer'>
+        <a href='https://instagram.com/eg___xo' target='_blank' rel='noopener noreferrer'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1.2em'
