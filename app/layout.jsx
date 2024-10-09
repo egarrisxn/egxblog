@@ -31,14 +31,37 @@ export const metadata = {
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
     url: 'https://www.egxblog.net/',
     siteName: 'egxblog.net',
+    images: [
+      {
+        url: `https://egxblog.net/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'The opengraph image for egxblog.',
+      },
+    ],
   },
   twitter: {
     cardType: 'summary_large_image',
-    handle: 'eg_xo_',
-    site: 'https://twitter.com/eg_xo_',
+    handle: 'eg__xo',
+    site: 'https://x.com/eg__xo',
     title: 'EG. | Blog',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
+    images: [
+      {
+        url: `https://egxblog.net/twitter-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'The twitter image for egxblog.',
+      },
+    ],
   },
+}
+
+export const viewport = {
+  themeColor: [
+    {media: '(prefers-color-scheme: light)', color: '#ffffff'},
+    {media: '(prefers-color-scheme: dark)', color: '#0c0a09'},
+  ],
 }
 
 export default function RootLayout({children}) {
