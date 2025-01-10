@@ -1,7 +1,8 @@
 export default function Footer() {
+  const date = new Date().getFullYear()
   return (
     <footer className='mx-auto flex w-full max-w-7xl items-center justify-between border-t-2 p-4'>
-      <section className='flex 2xl:text-xl'>EG | 2024</section>
+      <section className='flex 2xl:text-xl'>EG | {date}</section>
       <section className='flex gap-3 2xl:text-xl'>
         <a href='https://github.com/egarrisxn' target='_blank' rel='noopener noreferrer'>
           <svg
