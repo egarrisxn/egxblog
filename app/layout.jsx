@@ -5,12 +5,12 @@ import {Analytics} from '@vercel/analytics/react'
 import {ThemeProvider} from './providers'
 
 export const metadata = {
-  metadataBase: new URL('https://www.egxblog.net/'),
-  title: 'EG | Blog',
+  metadataBase: new URL('https://www.egxo.fyi'),
+  title: 'egxo.fyi',
   description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
   referrer: 'origin-when-cross-origin',
   keywords: [
-    'ethan_g, eg, EG, ethan-g, egarrisxn, egxblog, ethangarrison, ethan-garrison, ethan_garrison, blog, nextjs, next, next14, sanity, sanityio, shadcn-ui, shadcn/ui, tailwindcss, javascript, react',
+    'ethan_g, eg, EG, ethan-g, egarrisxn, egxo.fyi, ethangarrison, ethan-garrison, ethan_garrison, blog, nextjs, next, next14, sanity, sanityio, shadcn-ui, shadcn/ui, tailwindcss, javascript, react',
   ],
   creator: {name: 'Ethan Garrison', url: 'https://github.com/egarrisxn'},
   robots: {
@@ -29,14 +29,14 @@ export const metadata = {
     locale: 'en_US',
     title: 'EG. | Blog',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
-    url: 'https://www.egxblog.net/',
-    siteName: 'egxblog.net',
+    url: 'https://www.egxo.fyi/',
+    siteName: 'egxo.fyi',
     images: [
       {
-        url: `https://egxblog.net/opengraph-image.png`,
+        url: `https://egxo.fyi/opengraph-image.png`,
         width: 1200,
         height: 630,
-        alt: 'The opengraph image for egxblog.',
+        alt: 'The opengraph image for egxo.fyi.',
       },
     ],
   },
@@ -48,10 +48,10 @@ export const metadata = {
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
     images: [
       {
-        url: `https://egxblog.net/twitter-image.png`,
+        url: `https://egxo.fyi/twitter-image.png`,
         width: 1200,
         height: 630,
-        alt: 'The twitter image for egxblog.',
+        alt: 'The twitter image for egxo.fyi.',
       },
     ],
   },

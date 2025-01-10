@@ -1,14 +1,14 @@
-# egxblog
+# egxo.fyi
 
 Welcome to my personal blog.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxblog) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxblog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxo.fyi) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxo.fyi)
 
 ## Overview
 
 This blog is built using Next.js 14 and utilizes the power of Sanity.io for content management. The UI is enhanced with Shadcn/UI components and styled with TailwindCSS. Explore the latest features and enjoy a seamless blogging experience.
 
-![egxblog3](https://github.com/egarrisxn/egxblog/assets/126130230/e617343a-5a1a-4a00-a57f-b2b785bb27bb)
+![egxo.fyi3](https://github.com/egarrisxn/egxo.fyi/assets/126130230/e617343a-5a1a-4a00-a57f-b2b785bb27bb)
 
 ## Technologies
 

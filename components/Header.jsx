@@ -19,13 +19,13 @@ export default function Header() {
       <section className='flex'>
         <Button asChild variant='none' size='xxl'>
           <Link href='/'>
-            eg<span className='text-primary'>xblog</span>
+            egxo<span className='text-primary'>.fyi</span>
           </Link>
         </Button>
       </section>
       <section className='flex gap-2 px-4'>
         <Button asChild variant='outline' size='xxl' className='text-foreground'>
-          <Link href='https://egxworld.net/'>egxworld</Link>
+          <Link href='https://egxo.dev/'>egxo.dev</Link>
         </Button>
 
         <DropdownMenu>

@@ -4,7 +4,7 @@ export default function robots() {
       userAgent: '*',
       allow: ['/'],
     },
-    sitemap: 'https://egxblog.net/sitemap.xml',
-    host: 'http://egxblog.net',
+    sitemap: 'https://egxo.fyi/sitemap.xml',
+    host: 'http://egxo.fyi',
   }
 }
