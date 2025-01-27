@@ -1,8 +1,17 @@
 import './globals.css'
-import {GeistSans} from 'geist/font/sans'
-import {GeistMono} from 'geist/font/mono'
+import {Geist, Geist_Mono} from 'next/font/google'
 import {Analytics} from '@vercel/analytics/react'
 import {ThemeProvider} from './providers'
+
+const geist = Geist({
+  subsets: ['latin'],
+  variable: '--geist',
+});
+
+const geistMono = Geist_Mono({
+  subsets: ['latin'],
+  variable: '--geist-mono',
+});
 
 export const metadata = {
   metadataBase: new URL('https://www.egxo.fyi'),
@@ -15,19 +24,20 @@ export const metadata = {
   creator: {name: 'Ethan Garrison', url: 'https://github.com/egarrisxn'},
   robots: {
     index: true,
-    follow: true,
+    follow: false,
+    nocache: true,
     googleBot: {
       index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
+  manifest: "/manifest.json",
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    title: 'EG. | Blog',
+    title: 'egxo.dev',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
     url: 'https://www.egxo.fyi/',
     siteName: 'egxo.fyi',
@@ -39,13 +49,15 @@ export const metadata = {
         alt: 'The opengraph image for egxo.fyi.',
       },
     ],
+    type: 'website',
+    locale: 'en_US',
   },
   twitter: {
-    cardType: 'summary_large_image',
-    handle: 'eg__xo',
-    site: 'https://x.com/eg__xo',
-    title: 'EG. | Blog',
+    card: "summary_large_image",
+    title: 'egxo.dev',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
+    creator: "@eg__xo",
+    site: '@eg__xo',
     images: [
       {
         url: `https://egxo.fyi/twitter-image.png`,
@@ -53,6 +65,16 @@ export const metadata = {
         height: 630,
         alt: 'The twitter image for egxo.fyi.',
       },
+    ],
+  },
+    icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon-180.png", sizes: "180x180", type: "image/png" },
     ],
   },
 }
@@ -69,9 +91,9 @@ export default function RootLayout({children}) {
     <html
       lang='en'
       suppressHydrationWarning
-      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      className={`${geist.variable} ${geistMono.variable}`}
     >
-      <body>
+      <body className='antialiased scroll-smooth overscroll-none overflow-x-hidden'>
         <ThemeProvider
           attribute='class'
           defaultTheme='system'

@@ -25,6 +25,9 @@
     --input: 240 5.9% 90%;
     --ring: 142.1 76.2% 36.3%;
     --radius: 0.5rem;
+
+    --scrollbar: #fafafa;
+    --scrollbar-thumb: #08080a;
   }
   .dark {
     --background: 20 14.3% 4.1%;
@@ -46,6 +49,9 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 142.4 71.8% 29.2%;
+
+    --scrollbar: #262323;
+    --scrollbar-thumb: #f9f9f9;
   }
 }
 @layer base {
@@ -59,29 +65,31 @@
 
 /*! Html */
 html {
-  overflow-x: hidden;
-  overscroll-behavior: none;
-  scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
 }
 
-/*! Scrollbar */
-/* Firefox */
+::selection {
+  color: var(--scrollbar);
+  background: var(--scrollbar-thumb);
+}
+
+/* ! Scrollbar */
+/* Compatable with ALL browsers since Dec. 2024 */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #000000 #ffffff;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar);
 }
-/* Chrome & Others */
+/* Fallback for older Chrome, Safari, etc. versions */
 ::-webkit-scrollbar {
   width: 10px;
 }
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #000000;
+::-webkit-scrollbar-track {
+  background: var(--scrollbar);
   border-radius: 5px;
 }
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 5px;
+  border: 2px solid var(--scrollbar);
 }
