@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   metadataBase: new URL('https://www.egxo.fyi'),
-  title: 'egxo.fyi',
+  title: {
+    template: 'egxo.fyi | %s',
+    default: 'egxo.fyi',
+  },
   description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
   referrer: 'origin-when-cross-origin',
   keywords: [
@@ -69,17 +72,11 @@ export const metadata = {
   },
   icons: {
     icon: [
-      {url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon'},
-      {url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png'},
-      {url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png'},
+      {url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon'},
+      {url: '/icon.png', sizes: '96x96', type: 'image/png'},
+      {url: '/icon.svg', type: 'image/svg+xml'},
     ],
-    apple: [{url: '/apple-icon-180.png', sizes: '180x180', type: 'image/png'}],
-    other: [
-      {
-        rel: 'apple-touch-icon-precomposed',
-        url: '/icons/apple-touch-icon-precomposed.png',
-      },
-    ],
+    apple: [{url: '/apple-icon.png', sizes: '180x180', type: 'image/png'}],
   },
 }
 
