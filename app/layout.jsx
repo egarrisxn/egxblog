@@ -21,7 +21,7 @@ export const metadata = {
   keywords: [
     'ethan_g, eg, EG, ethan-g, egarrisxn, egxo.fyi, ethangarrison, ethan-garrison, ethan_garrison, blog, nextjs, next, next14, sanity, sanityio, shadcn-ui, shadcn/ui, tailwindcss, javascript, react',
   ],
-  creator: {name: 'Ethan Garrison', url: 'https://github.com/egarrisxn'},
+  creator: 'https://egxo.dev.',
   robots: {
     index: true,
     follow: false,
@@ -43,7 +43,7 @@ export const metadata = {
     siteName: 'egxo.fyi',
     images: [
       {
-        url: `https://egxo.fyi/opengraph-image.png`,
+        url: '/opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'My opengraph image for the latest blog post',
@@ -60,7 +60,7 @@ export const metadata = {
     site: '@eg__xo',
     images: [
       {
-        url: `https://egxo.fyi/twitter-image.png`,
+        url: '/twitter-image.png',
         width: 1200,
         height: 630,
         alt: 'My twitter image for the latest blog post',
@@ -74,6 +74,12 @@ export const metadata = {
       {url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png'},
     ],
     apple: [{url: '/apple-icon-180.png', sizes: '180x180', type: 'image/png'}],
+    other: [
+      {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/icons/apple-touch-icon-precomposed.png',
+      },
+    ],
   },
 }
 
