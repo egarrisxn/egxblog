@@ -6,12 +6,12 @@ import {ThemeProvider} from './providers'
 const geist = Geist({
   subsets: ['latin'],
   variable: '--geist',
-});
+})
 
 const geistMono = Geist_Mono({
   subsets: ['latin'],
   variable: '--geist-mono',
-});
+})
 
 export const metadata = {
   metadataBase: new URL('https://www.egxo.fyi'),
@@ -30,12 +30,12 @@ export const metadata = {
       index: true,
       follow: false,
       noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
   },
-  manifest: "/manifest.json",
+  manifest: '/manifest.json',
   openGraph: {
     title: 'egxo.dev',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
@@ -53,10 +53,10 @@ export const metadata = {
     locale: 'en_US',
   },
   twitter: {
-    card: "summary_large_image",
+    card: 'summary_large_image',
     title: 'egxo.dev',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
-    creator: "@eg__xo",
+    creator: '@eg__xo',
     site: '@eg__xo',
     images: [
       {
@@ -67,15 +67,13 @@ export const metadata = {
       },
     ],
   },
-    icons: {
+  icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon'},
+      {url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png'},
+      {url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png'},
     ],
-    apple: [
-      { url: "/apple-icon-180.png", sizes: "180x180", type: "image/png" },
-    ],
+    apple: [{url: '/apple-icon-180.png', sizes: '180x180', type: 'image/png'}],
   },
 }
 
@@ -88,12 +86,8 @@ export const viewport = {
 
 export default function RootLayout({children}) {
   return (
-    <html
-      lang='en'
-      suppressHydrationWarning
-      className={`${geist.variable} ${geistMono.variable}`}
-    >
-      <body className='antialiased scroll-smooth overscroll-none overflow-x-hidden'>
+    <html lang='en' suppressHydrationWarning className={`${geist.variable} ${geistMono.variable}`}>
+      <body className='overflow-x-hidden overscroll-none scroll-smooth antialiased'>
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
