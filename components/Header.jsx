@@ -1,6 +1,7 @@
 'use client'
 import * as React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import {useTheme} from 'next-themes'
 import {
   DropdownMenu,
@@ -19,7 +20,8 @@ export default function Header() {
       <section className='flex'>
         <Button asChild variant='none' size='xxl'>
           <Link href='/'>
-            egxo<span className='text-primary'>.fyi</span>
+            <Image src='/icon.png' alt='egxo.fyi logo' height={48} width={48} />
+            {/* egxo<span className='text-primary'>.fyi</span> */}
           </Link>
         </Button>
       </section>

@@ -1,10 +1,10 @@
 {
   "name": "egxo.fyi",
   "short_name": "egxo.fyi",
-  "description": "A blog from Ethan G.",
+  "description": "SPEND A LITTLE TIME INSIDE MY HEAD.",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

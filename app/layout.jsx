@@ -40,7 +40,7 @@ export const metadata = {
   },
   manifest: '/manifest.json',
   openGraph: {
-    title: 'egxo.dev',
+    title: 'egxo.fyi',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
     url: 'https://www.egxo.fyi/',
     siteName: 'egxo.fyi',
@@ -57,7 +57,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'egxo.dev',
+    title: 'egxo.fyi',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
     creator: '@eg__xo',
     site: '@eg__xo',
