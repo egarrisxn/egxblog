@@ -42,6 +42,44 @@ export default function Footer() {
             </g>
           </svg>
         </a>
+        <a href='https://instagram.com/eg___xo' target='_blank' rel='noopener noreferrer'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1.2em'
+            height='1.2em'
+            viewBox='0 0 24 24'
+            className='hover:text-green-400'
+          >
+            <g
+              fill='none'
+              stroke='currentColor'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth={2}
+            >
+              <path d='M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z'></path>
+              <path d='M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m7.5-4.5v.01'></path>
+            </g>
+          </svg>
+        </a>
+        <a href='https://x.com/eg__xo' target='_blank' rel='noopener noreferrer'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1.2em'
+            height='1.2em'
+            viewBox='0 0 24 24'
+            className='hover:text-green-400'
+          >
+            <path
+              fill='none'
+              stroke='currentColor'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth={2}
+              d='m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25'
+            ></path>
+          </svg>
+        </a>
         <a
           href='https://bsky.app/profile/egxo.bsky.social'
           target='_blank'
@@ -64,7 +102,7 @@ export default function Footer() {
             ></path>
           </svg>
         </a>
-        <a href='https://x.com/eg__xo' target='_blank' rel='noopener noreferrer'>
+        <a href='https://threads.net/@eg___xo' target='_blank' rel='noopener noreferrer'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1.2em'
@@ -78,11 +116,12 @@ export default function Footer() {
               strokeLinecap='round'
               strokeLinejoin='round'
               strokeWidth={2}
-              d='m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25'
+              d='M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4'
+              color='currentColor'
             ></path>
           </svg>
         </a>
-        <a href='https://instagram.com/eg___xo' target='_blank' rel='noopener noreferrer'>
+        <a href='https://peerlist.io/eg_xo' target='_blank' rel='noopener noreferrer'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1.2em'
@@ -97,28 +136,8 @@ export default function Footer() {
               strokeLinejoin='round'
               strokeWidth={2}
             >
-              <path d='M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z'></path>
-              <path d='M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m7.5-4.5v.01'></path>
-            </g>
-          </svg>
-        </a>
-        <a href='https://open.spotify.com/user/egarrisxn' target='_blank' rel='noopener noreferrer'>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            width='1.2em'
-            height='1.2em'
-            viewBox='0 0 24 24'
-            className='hover:text-green-400'
-          >
-            <g
-              fill='none'
-              stroke='currentColor'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth={2}
-            >
-              <path d='M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0'></path>
-              <path d='M8 11.973c2.5-1.473 5.5-.973 7.5.527M9 15c1.5-1 4-1 5 .5M7 9c2-1 6-2 10 .5'></path>
+              <path d='M8.87 3h6.26a6 6 0 0 1 5.963 5.337l.21 1.896c.131 1.174.131 2.36 0 3.534l-.21 1.896A6 6 0 0 1 15.13 21H8.87a6 6 0 0 1-5.963-5.337l-.21-1.896a16 16 0 0 1 0-3.534l.21-1.896A6 6 0 0 1 8.87 3'></path>
+              <path d='M9 17v-4m0 0V7h4a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3z'></path>
             </g>
           </svg>
         </a>
@@ -140,6 +159,26 @@ export default function Footer() {
               <path d='M8 12a1 1 0 1 0 2 0a1 1 0 0 0-2 0m6 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0'></path>
               <path d='M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833-1.667 3.5-3c.667-1.667.5-5.833-1.5-11.5c-1.457-1.015-3-1.34-4.5-1.5l-.972 1.923a11.9 11.9 0 0 0-4.053 0L9 4c-1.5.16-3.043.485-4.5 1.5c-2 5.667-2.167 9.833-1.5 11.5c.667 1.333 2 3 3.5 3c.5 0 2-2 2-3'></path>
               <path d='M7 16.5c3.5 1 6.5 1 10 0'></path>
+            </g>
+          </svg>
+        </a>
+        <a href='https://open.spotify.com/user/egarrisxn' target='_blank' rel='noopener noreferrer'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1.2em'
+            height='1.2em'
+            viewBox='0 0 24 24'
+            className='hover:text-green-400'
+          >
+            <g
+              fill='none'
+              stroke='currentColor'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth={2}
+            >
+              <path d='M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0'></path>
+              <path d='M8 11.973c2.5-1.473 5.5-.973 7.5.527M9 15c1.5-1 4-1 5 .5M7 9c2-1 6-2 10 .5'></path>
             </g>
           </svg>
         </a>
